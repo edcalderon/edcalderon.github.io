@@ -5,6 +5,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href="style.css" rel="stylesheet">
+  <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
   <title></title>
 </head>
 <body>
@@ -51,16 +55,14 @@
       <div class="clearfix"></div>
       <div class="contact-info clearfix">
         <ul class="list-titles">
-          <li>Call</li>
           <li>Mail</li>
           <li>Web</li>
           <li>Home</li>
         </ul>
         <ul class="list-content ">
-          <li>+34 123 456 789</li> <!-- YOUR PHONE NUMBER  -->
-          <li>j.anderson@gmail.com</li> <!-- YOUR EMAIL -->
-          <li><a href="#">janderson.com</a></li> <!-- YOUR WEBSITE  -->
-          <li>Los Angeles, CA</li> <!-- YOUR STATE AND COUNTRY  -->
+          <li>ecalderon@unal.edu.co</li> <!-- YOUR EMAIL -->
+          <li><a href="#">compuchain.solutions</a></li> <!-- YOUR WEBSITE  -->
+          <li>Medellin, Colombia</li> <!-- YOUR STATE AND COUNTRY  -->
         </ul>
       </div>
       <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
@@ -73,9 +75,9 @@
           <li>Codepen</li>
         </ul>
         <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-          <li><a href="">@janderson</a></li> <!-- YOUR TWITTER USER  -->
-          <li><a href="">janderson</a></li> <!-- YOUR DRIBBBLE USER  -->
-          <li><a href="">janderson</a></li> <!-- YOUR BEHANCE USER  -->
+          <li><a href="">@tiranicida</a></li> <!-- YOUR TWITTER USER  -->
+          <li><a href="">edcalderon</a></li> <!-- YOUR DRIBBBLE USER  -->
+          <li><a href="">edcalderon</a></li> <!-- YOUR BEHANCE USER  -->
         </ul>
       </div>
     </div>
@@ -151,8 +153,8 @@
   <div class="clearfix"></div>
 </div>
 
-<script type="text/javascript">
-  
+<script>
+$(function(){ 
 var select = function(s) {
   return document.querySelector(s);
 }
@@ -183,7 +185,7 @@ for(var i = 0; i < 20; i++){
 
   tl.add(t, (i+1)/0.6)
 }
-
+});
 tl.seek(50);
 </script>
 </body>
