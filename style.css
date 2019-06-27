@@ -5,6 +5,9 @@
 *, *::after, *::before {
   box-sizing: border-box;
 }
+#particles-js{
+  
+}
 
 html, body {
   height: 100%;
