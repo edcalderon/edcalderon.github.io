@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/dmhendricks/bootstrap-grid-css@4.1.3/dist/css/bootstrap-grid.min.css" />
+  <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+  <title>Edward's CV</title>
+</head>
+<body>
+  <div class="resume-wrapper">
+   <section class="profile section-padding">
+    <div class="container">
+
+      <div class="picture-resume-wrapper">
+        <div class="picture-resume">
+          <span><img src="https://avatars0.githubusercontent.com/u/25994054?s=400&u=66ba5e44974d44c411aa1ca7057cdabd6fa666e3&v=4" alt="" /></span>
+          <svg version="1.1" viewBox="0 0 350 350">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+              </filter>
+            </defs>
+
+            <g filter="url(#goo)" >
+              <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
+              <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
+              <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
+            </g>
+          </svg>
+        </div>
+         <div class="clearfix"></div>
+      </div>
+      <div class="name-wrapper">
+        <h1> Edward Calderon</h1>
+<!--         <p><span class="bold"> Hola! Soy Edward un apasionado del mundo de la ingeniería!</span>
+        </p> -->
+        <p> Hi! I'm Edward, a passionate Engineer!</p>
+      </div>
+
+      <div class="clearfix"> </div>
+      <div class="contact-info clearfix">
+        <ul class="list-titles">
+          <li>Mail</li>
+          <li>Web</li>
+          <li>Venue</li>
+        </ul>
+        <ul class="list-content ">
+          <li>ecalderon@unal.edu.co</li> <!-- YOUR EMAIL -->
+          <li><a href="https://edwardc.dev" target="_blank" >edwardc.dev</a></li> <!-- YOUR WEBSITE  -->
+          <li>Medellin, Colombia</li> <!-- YOUR STATE AND COUNTRY  -->
+        </ul>
+      </div>
+      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
+        <p><span class="bold">I'm a self-motivated professional with the ability to quickly master new technology to drive process improvements. 
+          A strong team player with excellent communication and collaborative abilities. Forward-thinking person offering experience working in fast-paced environments. 
+          (Scrum, TDD and XP)
+          Expertise in planning, installing and maintaining large-scale systems and infrastructures.(GCP and AWS certificates)</span>  
+        </p>
+      </div>
+      <div class="contact-social clearfix">
+        <ul class="list-titles">
+          <li>Twitter</li>
+          <li>Github</li>
+        </ul>
+        <ul id="particles-js" class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
+          <li><a href="https://twitter.com/Tiranicida" target="_blank">@tiranicida</a></li> 
+          <li><a href="https://github.com/edcalderon" target="_blank">@edcalderon</a></li> 
+        </ul>
+      </div>
+      <div  ><div>
+    </div>
+    
+  </section>
+
+  <section class="experience section-padding">
+    <div class="container">
+      <h3 class="experience-title">Experience</h3>
+
+      <div class="experience-wrapper">
+        <div class="company-wrapper clearfix">
+          <div class="experience-title" > <a href="https://solenium.co/" target="_blank">Solenium S.A.S</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">Ene 2019 - 2020 </div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+        </div>
+
+        <div class="job-wrapper clearfix">
+          <div class="experience-title">Full Stack Web Developer and Blockchain Main Dev at <a href="https://unergy.io" target="_blank">Unergy.io</a> </div> <!-- JOB TITLE  -->
+          <div class="company-description">
+            <p>Actually as member of Solenium group, Work in a solar energy traceability project, applying blockchain as decentralized sources and reduntand data validator, like Ethereum nets</p>
+           <!--  <p>Actualemente como integrante del grupo solenium, aplico mis conocimientos como full stack developer, en la implementación de 
+              soluciones para el sector de la energia solar y la trazabilidad energetica aplicando blockchain como medio de validación decentralizado 
+              auditable seguro he inmutable de la información</p>  --> <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+
+        <div class="company-wrapper clearfix">
+          <div class="experience-title"><a href="https://www.paginasamarillas.com.co/empresas/inversiones-lider-jeans/medellin-16374852" target="_blank">LIDER JEANS S.A.S </a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">Nov 2017 - 2020</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+        </div>
+
+         <div class="job-wrapper clearfix">
+          <div class="experience-title">Tech Advisor - Full Stack Web Developer and E-commerce SysAdmin at <a href="https://lovelyd.shop" target="_blank">Lovelyd.shop</a></div> <!-- JOB TITLE  -->
+          <div class="company-description">
+            <p>As head of technology management in a leading jeans company I implement solutions in the textile production sector, 
+              through control digital applications and measuring productivity and quality.</p>
+            <!-- <p>Como encargado de la gestion tecnológica en la empresa lider jeans he implementado soluciones en los procesos de produccion textil a través de aplicativos
+               digitales capaces de medir variables como productividad y calidad  </p> -->  <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+
+        <div class="company-wrapper clearfix">
+          <div class="experience-title"><a href="http://aai.com.co/" target="_blank">AAI S.A.S</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">Ene 2015 - 2020 </div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+        </div>
+
+         <div class="job-wrapper clearfix">
+          <div class="experience-title">Technology Consultant at <a href="http://aai.com.co/" target="_blank">AAI.com.co</a></div> <!-- JOB TITLE  -->
+          <div class="company-description">
+            <p>
+                As a technology advisor in this auditor firms, I promoted the processes of project management and automated collection of information, related to the industry of public services suppliers
+            </p>
+            <!-- <p> Como asesor tecnológico en Asesorias y Auditorias integrales he impulsado los procesos de gestion de proyectos y recolección automatizada de información en 
+              bases de datos relaccionadas con la industria del sector de prestacion de servicios publicos</p>   --> <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+       
+      </div><!--Skill experience-->
+
+      <div class="section-wrapper clearfix">-17/06
+        <h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
+          <ul>
+            <li class="skill-percentage">HTML5</li>
+            <li class="skill-percentage">Javascript / Node / VUE - REACT - ANGULAR  / Jquery </li>
+            <li class="skill-percentage">CSS3 / SASS / LESS</li>
+            <li class="skill-percentage">Python Django</li>
+            <li class="skill-percentage">Wordpress</li>
+            <li class="skill-percentage">Photoshop</li>
+            
+              <div class="row">
+                
+                <div class="col" style="display: inline-block;">
+                   <div id="cd860"></div>
+                </div>
+                <div class="col" style="display: inline-block;">
+                  <p> <div id="cd862"></div> </p>
+                </div>
+              </div>
+            
+          </ul>
+      </div>
+    
+
+
+      <div class="section-wrapper clearfix">
+        
+        <h3 class="section-title">Hobbies</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
+        <p><li class="">Open-source projects, Linux Foundation, Ethereum Foundation </li> </p>
+        <p><li class="">Decentralized Financial Systems, DEFI projects</li> </p>
+        <p><li class="">Sci-fi, Web Comics, CyberPunk </li> </p>
+        <p><li class="">Astronomy and Philosophy</li> </p>
+        <div id="particles2-js"></div>
+      </div>
+
+    </div>
+ 
+  </section>
+
+
+  <div class="clearfix"></div>
+  
+</div>
+
+
+<script>
+  !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
+    Fr.loadCD("cd860", {
+      coin: "bitcoin",
+      address: "3417qZHv1RbU4UCroHB8YNJQGGsoiPt15U",
+      buttonClass: "dark",
+      dialogClass: "dark",
+    });
+  });
+</script>
+<script>
+  !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
+    Fr.loadCD("cd862", {
+      coin: "ethereum",
+      address: "0x555306b8798B225Ae92F6ABD24e1D41BA62bcb53",
+      buttonClass: "dark",
+      dialogClass: "dark",
+    });
+  });
+</script>
+<!-- 
+<script>
+  !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
+    Fr.loadCD("cd452", {
+      coin: "bitcoin",
+      address: "1499JEoeR9drGGH2yhnY3CAEG2ZgQKqa8R",
+      buttonClass: "dark",
+      dialogClass: "dark",
+    });
+  });
+</script> -->
+
+<script>
+$(function(){
+var select = function(s) {
+  return document.querySelector(s);
+}
+
+function randomBetween(min,max)
+{
+    var number = Math.floor(Math.random()*(max-min+1)+min);
+
+    if ( number !== 0 ){
+      return number;
+    }else {
+      return 0.5;
+    }
+}
+
+var tl = new TimelineMax();
+
+for(var i = 0; i < 20; i++){
+
+  var t = TweenMax.to(select('.bubble' + i), randomBetween(1, 1.5), {
+    x: randomBetween(12, 15) * (randomBetween(-1, 1)),
+    y: randomBetween(12, 15) * (randomBetween(-1, 1)),
+    repeat:-1,
+    repeatDelay:randomBetween(0.2, 0.5),
+    yoyo:true,
+    ease:Elastic.easeOut.config(1, 0.5)
+  })
+
+  tl.add(t, (i+1)/0.6)
+}
+tl.seek(50);
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS.load('particles-js', './particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});</script>
+<script>
+  particlesJS.load('particles2-js', './particles2.json', function() {
+    console.log('callback - particles.js config loaded');
+  });</script>
+
+</body>
+</html>

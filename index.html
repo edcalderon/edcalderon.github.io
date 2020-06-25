@@ -1,268 +1,540 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="style.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/dmhendricks/bootstrap-grid-css@4.1.3/dist/css/bootstrap-grid.min.css" />
-  <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-  <title>Edward's CV</title>
-</head>
-<body>
-  <div class="resume-wrapper">
-   <section class="profile section-padding">
-    <div class="container">
-
-      <div class="picture-resume-wrapper">
-        <div class="picture-resume">
-          <span><img src="https://avatars0.githubusercontent.com/u/25994054?s=400&u=66ba5e44974d44c411aa1ca7057cdabd6fa666e3&v=4" alt="" /></span>
-          <svg version="1.1" viewBox="0 0 350 350">
-            <defs>
-              <filter id="goo">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-              </filter>
-            </defs>
-
-            <g filter="url(#goo)" >
-              <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-              <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-              <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
-            </g>
-          </svg>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edward's CV</title>
+    <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">edwardc.dev</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/medellin.jpg'); "></div>
+      <div class="container">
+        <div class="cc-profile-image" style="padding-top: 50px;"><a href="#"><img src="images/ed.jpg" alt="Image"/></a></div>
+        <div class="content-center">    
+          <div class="h2 title">Edward Calderón</div>
+          <p class="category ">Web Developer - Data scientist - Blockchain evangelist  </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="images/pdf.pdf" download data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
-         <div class="clearfix"></div>
       </div>
-      <div class="name-wrapper">
-        <h1> Edward Calderon</h1>
-<!--         <p><span class="bold"> Hola! Soy Edward un apasionado del mundo de la ingeniería!</span>
-        </p> -->
-        <p> Hi! I'm Edward, a passionate Engineer!</p>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/Tiranicida" target="_blank" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/edwardca.dev/" target="_blank" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+        </div>
       </div>
-
-      <div class="clearfix"> </div>
-      <div class="contact-info clearfix">
-        <ul class="list-titles">
-          <li>Mail</li>
-          <li>Web</li>
-          <li>Venue</li>
-        </ul>
-        <ul class="list-content ">
-          <li>ecalderon@unal.edu.co</li> <!-- YOUR EMAIL -->
-          <li><a href="https://edwardc.dev" target="_blank" >edwardc.dev</a></li> <!-- YOUR WEBSITE  -->
-          <li>Medellin, Colombia</li> <!-- YOUR STATE AND COUNTRY  -->
-        </ul>
-      </div>
-      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-        <p><span class="bold">I'm a self-motivated professional with the ability to quickly master new technology to drive process improvements. 
-          A strong team player with excellent communication and collaborative abilities. Forward-thinking person offering experience working in fast-paced environments. 
-          (Scrum, TDD and XP)
-          Expertise in planning, installing and maintaining large-scale systems and infrastructures.(GCP and AWS certificates)</span>  
-        </p>
-      </div>
-      <div class="contact-social clearfix">
-        <ul class="list-titles">
-          <li>Twitter</li>
-          <li>Github</li>
-        </ul>
-        <ul id="particles-js" class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-          <li><a href="https://twitter.com/Tiranicida" target="_blank">@tiranicida</a></li> 
-          <li><a href="https://github.com/edcalderon" target="_blank">@edcalderon</a></li> 
-        </ul>
-      </div>
-      <div  ><div>
     </div>
-    
-  </section>
-
-  <section class="experience section-padding">
-    <div class="container">
-      <h3 class="experience-title">Experience</h3>
-
-      <div class="experience-wrapper">
-        <div class="company-wrapper clearfix">
-          <div class="experience-title" > <a href="https://solenium.co/" target="_blank">Solenium S.A.S</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Ene 2019 - 2020 </div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-        </div>
-
-        <div class="job-wrapper clearfix">
-          <div class="experience-title">Full Stack Web Developer and Blockchain Main Dev at <a href="https://unergy.io" target="_blank">Unergy.io</a> </div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <p>Actually as member of Solenium group, Work in a solar energy traceability project, applying blockchain as decentralized sources and reduntand data validator, like Ethereum nets</p>
-           <!--  <p>Actualemente como integrante del grupo solenium, aplico mis conocimientos como full stack developer, en la implementación de 
-              soluciones para el sector de la energia solar y la trazabilidad energetica aplicando blockchain como medio de validación decentralizado 
-              auditable seguro he inmutable de la información</p>  --> <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-
-        <div class="company-wrapper clearfix">
-          <div class="experience-title"><a href="https://www.paginasamarillas.com.co/empresas/inversiones-lider-jeans/medellin-16374852" target="_blank">LIDER JEANS S.A.S </a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Nov 2017 - 2020</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-        </div>
-
-         <div class="job-wrapper clearfix">
-          <div class="experience-title">Tech Advisor - Full Stack Web Developer and E-commerce SysAdmin at <a href="https://lovelyd.shop" target="_blank">Lovelyd.shop</a></div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <p>As head of technology management in a leading jeans company I implement solutions in the textile production sector, 
-              through control digital applications and measuring productivity and quality.</p>
-            <!-- <p>Como encargado de la gestion tecnológica en la empresa lider jeans he implementado soluciones en los procesos de produccion textil a través de aplicativos
-               digitales capaces de medir variables como productividad y calidad  </p> -->  <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-
-        <div class="company-wrapper clearfix">
-          <div class="experience-title"><a href="http://aai.com.co/" target="_blank">AAI S.A.S</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-          <div class="time">Ene 2015 - 2020 </div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-        </div>
-
-         <div class="job-wrapper clearfix">
-          <div class="experience-title">Technology Consultant at <a href="http://aai.com.co/" target="_blank">AAI.com.co</a></div> <!-- JOB TITLE  -->
-          <div class="company-description">
-            <p>
-                As a technology advisor in this auditor firms, I promoted the processes of project management and automated collection of information, related to the industry of public services suppliers
-            </p>
-            <!-- <p> Como asesor tecnológico en Asesorias y Auditorias integrales he impulsado los procesos de gestion de proyectos y recolección automatizada de información en 
-              bases de datos relaccionadas con la industria del sector de prestacion de servicios publicos</p>   --> <!-- JOB DESCRIPTION  -->
-          </div>
-        </div>
-       
-      </div><!--Skill experience-->
-
-      <div class="section-wrapper clearfix">
-        <h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
-          <ul>
-            <li class="skill-percentage">HTML5</li>
-            <li class="skill-percentage">Javascript / Node / VUE - REACT - ANGULAR  / Jquery </li>
-            <li class="skill-percentage">CSS3 / SASS / LESS</li>
-            <li class="skill-percentage">Python Django</li>
-            <li class="skill-percentage">Wordpress</li>
-            <li class="skill-percentage">Photoshop</li>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>Hello! I'm Edward Calderon a JavaScript Fan Boy. <br> Building the Web 3.0 
+              <a class="credit" href="https://web3.foundation/about/" target="_blank"> <svg width="20" height="20" viewBox="0 0 256 417" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path fill="#343434" d="M127.961 0l-2.795 9.5v275.668l2.795 2.79 127.962-75.638z"/><path fill="#8C8C8C" d="M127.962 0L0 212.32l127.962 75.639V154.158z"/><path fill="#3C3C3B" d="M127.961 312.187l-1.575 1.92v98.199l1.575 4.6L256 236.587z"/><path fill="#8C8C8C" d="M127.962 416.905v-104.72L0 236.585z"/><path fill="#141414" d="M127.961 287.958l127.96-75.637-127.96-58.162z"/><path fill="#393939" d="M0 212.32l127.96 75.638v-133.8z"/></svg></a>
+             </p>
             
-              <div class="row">
-                
-                <div class="col" style="display: inline-block;">
-                   <div id="cd860"></div>
+            <p>Currently working in several projects related to decentralized technology and smart-contracts businesses,
+              I'm passionate about improving process and Test-Driven Development, enjoy working in high performance groups and trying to learn something new every day. 
+           <!--  <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p> -->
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-8">25</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">ecalderon@unal.edu.co</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">Medellín, City, Antioquia, Colombia</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8">English, Spanish, French</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Professional Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div><span class="progress-value">99%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">AWS / GCP </span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 88%;"></div><span class="progress-value">88%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Python</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Tensorflow / SKLEARN</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">C#</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div><span class="progress-value">45%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">UNITY</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div><span class="progress-value">30%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+           <!--  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li> -->
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://bancannabis.co" target="_blank">
+                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Recent Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a>
                 </div>
-                <div class="col" style="display: inline-block;">
-                  <p> <div id="cd862"></div> </p>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://unergy.io" target="_blank" >
+                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Startup Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://lovelyd.shop" target="_blank">
+                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">E-commerce Order Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://edwardc.dev" target="_blank" >
+                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Web Advertising Personal Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="graphic-design" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="https://i.pinimg.com/736x/29/3b/9a/293b9a1349dc2fb33355f82ae2e608d9--medellin-colombia.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4"></div>
+                      <p></p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="https://images.musement.com/cover/0001/84/medellin-jpg_header-83920.jpeg?&q=60&fit=crop" alt="Image"/>
+                    <figcaption>
+                      <div class="h4"></div>
+                      <p></p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="https://landezine-award.com/wp-content/uploads/2018/05/DJI_0982.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4"></div>
+                      <p></p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="http://forbesdavidsonplanning.com/wp-content/uploads/2014/08/2014-04-11-09-570578-WUF-Medellin-barrios-m-e1409240343968.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4"></div>
+                      <p></p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="tab-pane" id="Photography" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="left-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Wedding Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Beach Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Nature Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>March 2020 </p>
+            <div class="h5"><a class="credit" href="http://www.parquedelemprendimiento.com/landing" target="_blank">PARQUE E</a></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Freelancer</div>
+            <p>Develop and integration of an Wordpress API and Angular SPA application, <br> Ship the Front page for "Parque del Emprendimiento" incubator in Medellin City.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>March 2019 - Jun 2020</p>
+            <div class="h5"><a class="credit" href="https://unergy.io" target="_blank">UNERGY.IO</a></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">DevOps Engineer</div>
+            <p>at Solenium S.A.S works like DevOps and Blockchain Main developer, as a part of the core dev team in the solar and renewable energy start-up unergy.io, architecting and automatizing mission critical deployments over a multiple providers infrastructures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Jan 2019 - jun 2010</p>
+            <div class="h5"><a class="credit" href="http://revistas.sena.edu.co/index.php/CITEISA/article/view/2878" target="_blank">SENA</a></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Blockchain Consultant and Tech Lead</div>
+            <p>Acted as IT and blockchain consultant, working in operations analysis and improving the platform on under-develop TDS "Digital Transformation in Health" across the institution</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="button-container" style="text-align: center;"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/edward-calder%C3%B3n-0339b737/" target="_blank" rel="tooltip" title="See at Linkedin"><i class="fa fa-linkedin"></i></a></div>
+  </div>
+</div>
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p> Jun 2020 - Inprogess </p>
+            <div class="h5">Specialization</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Deep Learning Specialization</div>
+            <p class="category">Coursera</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>May 2020</p>
+            <div class="h5">Specialization</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Google Cloud Specialization</div>
+            <p class="category">Google</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2015 - 2020</p>
+            <div class="h5">Engineering Deegre</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Computer Science Mayor in Systems engineering</div>
+            <p class="category">National University of Colombia</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2005 - 2010</p>
+            <div class="h5">High School</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Basic Science and Mathematics</div>
+            <p class="category">Secondary School of Bolivarian Pontifical University</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+                <div class="h5 pt-2">Aiyana</div>
+                <p class="category">CEO / WEBM</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+                <div class="h5 pt-2">Braiden</div>
+                <p class="category">CEO / Creativem</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+                <div class="h5 pt-2">Alexander</div>
+                <p class="category">CEO / Webnote</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="section" id="contact">
+  <div class="cc-contact-information" style="background-image: url('images/medellin.png');">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card-body">
+                    <form action="https://formspree.io/ecalderon@unal.edu.co" method="POST">
+                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
-            
-          </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    
-
-
-      <div class="section-wrapper clearfix">
-        
-        <h3 class="section-title">Hobbies</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
-        <p><li class="">Open-source projects, Linux Foundation, Ethereum Foundation </li> </p>
-        <p><li class="">Decentralized Financial Systems, DEFI projects</li> </p>
-        <p><li class="">Sci-fi, Web Comics, CyberPunk </li> </p>
-        <p><li class="">Astronomy and Philosophy</li> </p>
-        <div id="particles2-js"></div>
-      </div>
-
     </div>
- 
-  </section>
-
-
-  <div class="clearfix"></div>
-  
-</div>
-
-
-<script>
-  !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
-    Fr.loadCD("cd860", {
-      coin: "bitcoin",
-      address: "3417qZHv1RbU4UCroHB8YNJQGGsoiPt15U",
-      buttonClass: "dark",
-      dialogClass: "dark",
-    });
-  });
-</script>
-<script>
-  !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
-    Fr.loadCD("cd862", {
-      coin: "ethereum",
-      address: "0x555306b8798B225Ae92F6ABD24e1D41BA62bcb53",
-      buttonClass: "dark",
-      dialogClass: "dark",
-    });
-  });
-</script>
-<!-- 
-<script>
-  !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
-    Fr.loadCD("cd452", {
-      coin: "bitcoin",
-      address: "1499JEoeR9drGGH2yhnY3CAEG2ZgQKqa8R",
-      buttonClass: "dark",
-      dialogClass: "dark",
-    });
-  });
-</script> -->
-
-<script>
-$(function(){
-var select = function(s) {
-  return document.querySelector(s);
-}
-
-function randomBetween(min,max)
-{
-    var number = Math.floor(Math.random()*(max-min+1)+min);
-
-    if ( number !== 0 ){
-      return number;
-    }else {
-      return 0.5;
-    }
-}
-
-var tl = new TimelineMax();
-
-for(var i = 0; i < 20; i++){
-
-  var t = TweenMax.to(select('.bubble' + i), randomBetween(1, 1.5), {
-    x: randomBetween(12, 15) * (randomBetween(-1, 1)),
-    y: randomBetween(12, 15) * (randomBetween(-1, 1)),
-    repeat:-1,
-    repeatDelay:randomBetween(0.2, 0.5),
-    yoyo:true,
-    ease:Elastic.easeOut.config(1, 0.5)
-  })
-
-  tl.add(t, (i+1)/0.6)
-}
-tl.seek(50);
-});
-</script>
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<script>
-particlesJS.load('particles-js', './particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});</script>
-<script>
-  particlesJS.load('particles2-js', './particles2.json', function() {
-    console.log('callback - particles.js config loaded');
-  });</script>
-
-</body>
+  </div>
+</div></div>
+    </div>
+    <footer class="footer">
+      <div class="h4 title text-center">Edward Calderón</div>
+      <div class="text-center text-muted">
+        <p>&copy; <a class="credit" href="https://edwardc.dev" target="_blank">edwardc.dev</a></p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <script src="js/now-ui-kit.js?v=1.1.0"></script>
+    <script src="js/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
