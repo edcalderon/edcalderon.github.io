@@ -6971,6 +6971,7 @@ Created using IcoMoon - icomoon.io
   position: absolute;
   width: 100%;
   bottom: 20px;
+  
 }
 
 .gallery figure.cc-effect p,
@@ -6989,6 +6990,14 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect .h4 {
   -webkit-transform: scale(1.06, 1.06);
   transform: scale(1.06, 1.06);
+  
+}
+.galler img-top {
+  display: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .gallery figure.cc-effect img,
@@ -6999,12 +7008,15 @@ Created using IcoMoon - icomoon.io
   transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  
 }
+
 
 .gallery figure.cc-effect:hover img {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+
 }
 
 .gallery figure.cc-effect:hover figcaption::before,
@@ -7012,10 +7024,12 @@ Created using IcoMoon - icomoon.io
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+  
 }
 
 .gallery figure.cc-effect:hover figcaption:before {
   background: rgba(27, 23, 23, 0.5);
+  
 }
 
 .gallery figure.cc-effect:hover .h4,
@@ -7025,6 +7039,7 @@ Created using IcoMoon - icomoon.io
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   color: #fff;
+  
 }
 
 .gallery figure.cc-effect:hover figcaption::after,
