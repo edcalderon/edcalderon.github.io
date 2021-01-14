@@ -1,0 +1,21 @@
+{
+  "title": "Développeur Web 3.0 = Blockchain + JS + Data Science <br> ❤️ Medellín",
+  "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results.",
+  "resume": {
+    "p1": "Salut! 👋 Je suis Edward, un entrepreneur qui vit actuellement à Medellín 🇨🇴 Qui aime et aime créer des solutions numériques grâce aux technologies 4.0 telles que les contrats intelligents et l'IOT.",
+    "p2": "Passionné de JavaScript 💪 Passionné de science des données et d'astronomie 🧪📡🔭 Construire le Web 3.0 avec la technologie Blockchain.",
+    "p3": "Je travaille actuellement sur plusieurs projets liés aux architectures décentralisées et à la gestion DevSecOps pour des processus d'amélioration continue et de transformation culturelle appliquant des principes agiles. Évangéliste du code propre et du développement axé sur les tests, mon objectif est de travailler dans des groupes très performants, de rencontrer des gens extraordinaires et d'apprendre un peu chaque jour."
+  },
+  "work": {
+    "w1position": "Développeur Blockchain",
+    "w1description": "Développeur Chez bancannabis.org, nous créons la communauté la plus inclusive de l'industrie du cannabis en apportant la décentralisation à l'ensemble de l'écosystème du cannabis médical",
+    "w2position": "Freelance",
+    "w2description": "Avec l'exposant de bitsingenieria.com, nous expédions parquedelemprendimiento.com pour cet incubateur de startups. Construit à l'aide de l'API WordPress RESTful intégrée à une application Angular SPA",
+    "w3position": "Web Developer",
+    "w3description": "Développeur et principal mainteneur du projet basé sur CMS pour le laboratoire financier de l'université nationale de Colombie labfinancierominas.com Construit avec Joomla et apache2 + mysql stack",
+    "w4position": "DevOps Engineer",
+    "w4description": "Chez Solenium.co a agi comme ingénieur DevOps et développeur Web Fullstack Blockchain, avec Django + Vue + Solidity. Au cœur de la start-up d'énergie solaire Unergy.io, l'architecte fait partie de l'infrastructure et de la solution logicielle, construisez des pipelines automatisés pour CI et CD, intégrez des ponts de paiement avec des fournisseurs comme Nequi by Bancolombia et dirigez également la culture de transformation Agile dans l'entreprise.",
+    "w5position": "Blockchain Consultant and Tech Lead",
+    "w5description": "Consultant IT Blockchain et contratiste Sennova. Travaille dans l'analyse des opérations, l'architecture de solutions et la gestion des exigences du programme TDS en cours de développement «Transformation numérique en santé» en alliance avec l'Université nationale de Colombie. Co-organise également le Congrès international de la science, de la technologie et de l'innovation par Sena Antioquia. CICTI 2019."
+  }
+}

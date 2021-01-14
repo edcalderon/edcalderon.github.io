@@ -1,0 +1,21 @@
+{
+  "title": "Web 3 Developer = Blockchain + JS + Data Science <br> ❤️ Medellín ",
+  "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results.",
+  "resume": {
+    "p1": "¡Hola! 👋 Soy Edward, un emprendedor que actualmente vive en Medellín 🇨🇴 A quien le encanta y disfruta construyendo Soluciones Digitales a través de tecnologías 4.0 como Smart Contracts e IOT.",
+    "p2": "Apasionado fanático de JavaScript 💪 Entusiasta de la ciencia de datos y la astronomía 🧪📡🔭 Construyendo la Web 3.0 con tecnlogia Blockchain.",
+    "p3": "Actualmente trabajo en varios proyectos relacionados con Arquitecturas Descentralizadas y en la gestión DevSecOps para procesos de mejora continua y transformación cultural aplicando los principios agiles. Evangelista del desarrollo impulsado por pruebas y código limpio, mi objetivo es trabajar en grupos de alto rendimiento, conocer gente increíble y aprender un poco todos los días."
+  },
+  "work": {
+    "w1position": "Desarrollador Blockchain",
+    "w1description": "En <a class='credit' href='https://bancannabis.org' target='_blank'>bancannabis.org </a> estamos creando la comunidad más inclusiva en la industria del cannabis llevando la descentralización a todo el ecosistema del cannabis medicinal",
+    "w2position": "Freelance",
+    "w2description": "Con el patrocinio de  <a class='credit' href='https://bitsingenieria.com' target='_blank'>bitsingenieria.com </a> entregamos <a class='credit' href='https://parquedelemprendimiento.com' target='_blank'>parquedelemprendimiento.com </a> una plataforma de información para la Incubadora de Startups de Colombia ParqueE. Construido con la API RESTful de WordPress envuelto en una aplicación Angular SPA.",
+    "w3position": "Desarrollador Web",
+    "w3description": "Desarrollador y mantenedor principal del proyecto laboratorio financiero de la universidad nacional de Colombia <a class='credit' href='https://labfinancierominas.com' target='_blank'>labfinancierominas.com </a>  Construido usando Joomla + mysql",
+    "w4position": "Ingeniero DevOps",
+    "w4description": "En <a class='credit' href='https://solenium.co' target='_blank'>Solenium.co </a> actué como ingeniero DevOps y desarrollador web Fullstack Blockchain, manejando tecnologias como Django, Vue JS y Solidity. En el núcleo de la startup de energía solar,  <a class='credit' href='https://unergy.io' target='_blank'>Unergy.io </a>, diseñe la soluciónes de infraestructura y software, construyendo pipelines automatizados e integraciones de pagos con proveedores como Nequi-Bancolombia, Además lideré la transformación cultural hacia entornos agiles de desarrollo de la empresa.",
+    "w5position": "Consultor Blockchain y líder tecnológico",
+    "w5description": "Consultor de IT y Blockchain - Contratista de <a class='credit' href='http://sennova.senaedu.edu.co/' target='_blank'>SENNOVA</a>. Trabaje en análisis de operaciones, arquitectura de soluciones y manejo de requisitos para el programa TDS 'Transformación Digital en Salud' en alianza con la Universidad Nacional de Colombia. Además Coorganize el Congreso Internacional de Ciencia, Tecnología e Innovación del Sena Antioquia. CICTI 2019."
+  }
+}
